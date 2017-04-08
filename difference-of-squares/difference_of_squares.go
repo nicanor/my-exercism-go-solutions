@@ -8,12 +8,12 @@ func Difference(i int) int {
 	return SquareOfSums(i) - SumOfSquares(i)
 }
 
-// Difference calculates other stuff.
+// SquareOfSums calculates other stuff.
 func SquareOfSums(i int) int {
 	return squareOfSums(i, 0)
 }
 
-// Difference calculates not more interesting stuff.
+// SumOfSquares calculates not more interesting stuff.
 func SumOfSquares(i int) int {
 	return sumOfSquares(i, 0)
 }
